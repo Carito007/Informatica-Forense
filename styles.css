@@ -1,6 +1,12 @@
-* {
+body {
     background-color: rgb(18, 25, 43);
     color: white;
+    display: grid;
+    align-items: center;
+    justify-items:center;
+    width: 95%;
+    font-family: Cambria;
+    font-size: 100%;
 }
 
 h1 {
@@ -11,6 +17,10 @@ h1 {
 
 /* esto es un comentario */
 
+a{
+    color: aqua;
+    text-decoration: none;
+}
 
 
 a:hover {
