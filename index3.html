@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" type="text/css" href="/styles.css"> -->
    
-    <title>Apuntes Curso OSINT</title>
+    <title>DESAFIOS OSINT</title>
 
     <style type="text/css">
         body {
@@ -61,6 +61,7 @@
         }
         .desafios {
             display:grid;
+            grid-template-columns: 1fr;
             justify-items: center;
             align-content: center;
             width: 90%;
@@ -70,11 +71,13 @@
         }
 
         .desafios img {
-            width: 80%;
+            width: 50%;
+
         }
         .desafios p {
             display: block;
             width: auto;
+
         }
     
         </style>
@@ -88,24 +91,32 @@
             <li><a href="index2.html">OSINT</a></li>
             <li><a href="index3.html">DESAFIOS OSINT</a></li>
         </ul>
+
     </header>
     
     <br> 
 
-    <p><h1>OSINT</h1></p>
-    <p>Definición de <a href="https://derechodelared.com/osint/" target="_blank">OSINT</a></p>
-    <img src="img/OSINT.png" alt="osint">
-    <p><a href="https://suments.com/es/que-son-los-metadatos-definicion-tipos-ejemplos/" target="_blank">Metadatos</a></p>
-    <img src="img/metadatos.png" alt="metadatos">
-    <img src="img/herramientasMetad.png" alt="herramientas para metadatos">
-    <BR></BR>
-    <ul> HERRAMIENTAS ON LINE:
-        <li><a href="https://jimpl.com/" target="_blank">Jimpl</a></li>
-        <li><a href="https://exifdata.com/" target="_blank">ExifData</a></li>
-        <li><a href="https://onlineexifviewer.com/" target="_blank">Online Exif Viewer</a></li>
-    </ul>
+    <h1>DESAFIOS OSINT</h1>
+  
+    <section class="desafios">
+        <div id="desafio1">
+            <h2>Primer desafío</h2>
+            <p>Encontrar la ubicación donde se tomó la fotgorafía que se muestra a continuación:</p>
+            <img src="img/desafio1.jpg" alt="desafio1">
+            <p></p>
+            <p>RESOLUCIÓN DEL EJERCICIO: </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3365.5315250678073!2d-58.235313!3d-32.48522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDI5JzA2LjgiUyA1OMKwMTQnMDcuMSJX!5e0!3m2!1ses!2sar!4v1684264125342!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <h2>Segundo desafío</h2>
+            <p>Encontrar la ubicación donde se grabaron las escenas donde aparece la motocicleta del video que se exhibe a continuación:</p>
+            <iframe width="713" height="401" src="https://www.youtube.com/embed/GZD8pBF9J2E" title="Money Heist: Part 5 | La Casa De Papel 5 | FilmFantasy Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p></p>
+            <p>RESOLUCIÓN DEL EJERCICIO: </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.5491772397418!2d23.66857567483963!3d37.95091640199566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bc76891db21b%3A0x24e7d22ea40c5fa6!2sOld%20PPC%20Steam-Electric%20Power%20Plant!5e1!3m2!1ses!2sar!4v1684442582338!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
 
-    <p><a href="https://drive.google.com/drive/folders/1gK7Yiz21OG9nC18PmWumitxO-O2tY6aS?usp=share_link" target="_blank">Link</a> al Drive</p>
 
     <footer>
         <p></p>
@@ -115,6 +126,8 @@
         <p></p>
         <p></p>
     </footer>
+
+
 
 </body>
 </html>
