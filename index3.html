@@ -13,22 +13,23 @@
             background-color: rgb(18, 25, 43);
             color: white;
             display: grid;
+            grid-template-columns: repeat(1, 1fr);
             align-items: center;
             justify-items:center;
             width: 90%;
             font-family: Cambria;
             font-size: 100%;
             margin: auto;
-            justify-content: center;
+            
         }
         header {
             background-color: rgb(45, 46, 63);
             width: 80%;
-            display: flex;
-            justify-content:center ;
+            display: grid;
+            /* justify-content:center ;
             justify-items: center;
             align-content: center;
-            align-items: center;
+            align-items: center; */
         }
     
         header ul {
@@ -61,9 +62,7 @@
         }
         .desafios {
             display:grid;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            align-content: center;
+       
             width: 90%;
         }
         body img {
@@ -75,8 +74,12 @@
 
         }
         .desafios p {
-            display: block;
+            display: grid;
             width: auto;
+            grid-template-columns: repeat(1,1fr);
+            justify-items: center;
+            align-items: center;
+
 
         }
     
