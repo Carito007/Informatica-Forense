@@ -9,57 +9,65 @@
     <title>DESAFIOS OSINT</title>
 
     <style type="text/css">
-        body {
+
+body {
+            display: grid;
             background-color: rgb(18, 25, 43);
             color: white;
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
             align-items: center;
             justify-items:center;
             width: 90%;
             font-family: Cambria;
             font-size: 100%;
             margin: auto;
-            
+            justify-content: center;
+            align-content: center;
         }
         header {
             background-color: rgb(45, 46, 63);
             width: 80%;
-            display: grid;
-            /* justify-content:center ;
+            display: flex;
+            justify-content:center ;
             justify-items: center;
             align-content: center;
-            align-items: center; */
+            align-items: center;
         }
-    
+
         header ul {
-            width: 100%;
+            width: 90%;
             display: flex;
             justify-content: space-around;
-       
+    
         }
         header ul li{
-                margin-left: 10px;
+                margin-left: 10%;
         }
-    
-    
+
+
         h1 {
             text-decoration: underline;
             
         }
-    
-    
+
+
         /* esto es un comentario */
-    
-        a{
+
+        a {
             color: aqua;
             text-decoration: none;
         }
-    
-    
+        p {
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+        }
+
         a:hover {
             color: green
         }
+
         .desafios {
             display:grid;
        
@@ -70,17 +78,25 @@
         }
 
         .desafios img {
-            width: 50%;
+            width: 30%;
 
         }
-        .desafios p {
+
+        .desafios {
             display: grid;
-            width: auto;
             grid-template-columns: repeat(1,1fr);
             justify-items: center;
             align-items: center;
+        }
 
+        .desafios p {
+            width: auto;   
+        }
 
+        footer {
+            font-family: 'Lucida Sans';
+            font-size: smaller;
+            margin-top: 5%;
         }
     
         </style>
@@ -102,7 +118,7 @@
     <h1>DESAFIOS OSINT</h1>
   
     <section class="desafios">
-        <div id="desafio1">
+        <div class="desafios">
             <h2>Primer desafío</h2>
             <p>Encontrar la ubicación donde se tomó la fotgorafía que se muestra a continuación:</p>
             <img src="img/desafio1.jpg" alt="desafio1">
@@ -110,7 +126,7 @@
             <p>RESOLUCIÓN DEL EJERCICIO: </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3365.5315250678073!2d-58.235313!3d-32.48522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDI5JzA2LjgiUyA1OMKwMTQnMDcuMSJX!5e0!3m2!1ses!2sar!4v1684264125342!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div>
+        <div class="desafios">
             <h2>Segundo desafío</h2>
             <p>Encontrar la ubicación donde se grabaron las escenas donde aparece la motocicleta del video que se exhibe a continuación:</p>
             <iframe width="713" height="401" src="https://www.youtube.com/embed/GZD8pBF9J2E" title="Money Heist: Part 5 | La Casa De Papel 5 | FilmFantasy Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -118,16 +134,23 @@
             <p>RESOLUCIÓN DEL EJERCICIO: </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.5491772397418!2d23.66857567483963!3d37.95091640199566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bc76891db21b%3A0x24e7d22ea40c5fa6!2sOld%20PPC%20Steam-Electric%20Power%20Plant!5e1!3m2!1ses!2sar!4v1684442582338!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <div class="desafios">
+            <h2>Tercer desafío</h2>
+            <p>Encontrar el modelo exacto del anillo de Helsinki:</p>
+            <img src="img/desafio3.jpg" alt="">
+            <p></p>
+            <p>RESOLUCIÓN DEL EJERCICIO: </p>
+            <img src="img/desafio3resuelto.jpg" alt="Anillo de Helsinki">
+            
+        </div>
     </section>
 
 
     <footer>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <span>Este contenido se hizo con fines personales educativos. Corresponde a apuntes tomados en las clases.</spanp> 
+        <p>-2023-</p> 
+        
+   
     </footer>
 
 
