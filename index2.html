@@ -10,6 +10,7 @@
 
     <style type="text/css">
         body {
+            display: grid;
             background-color: rgb(18, 25, 43);
             color: white;
             display: grid;
@@ -20,6 +21,7 @@
             font-size: 100%;
             margin: auto;
             justify-content: center;
+            align-content: center;
         }
         header {
             background-color: rgb(45, 46, 63);
@@ -59,24 +61,31 @@
         a:hover {
             color: green
         }
-        .desafios {
-            display:grid;
-            justify-items: center;
-            align-content: center;
-            width: 90%;
-        }
+
         body img {
             width: 80%;
         }
+        
+        .powerpoint {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
 
-        .desafios img {
-            width: 80%;
         }
-        .desafios p {
-            display: block;
+        .powerpoint img {
+            height: 95%;
             width: auto;
+            justify-items: center;
+            align-content: center;
+        }
+
+        footer {
+            font-family: 'Lucida Sans';
+            font-size: smaller;
+            margin-top: 5%;
         }
     
+
+
         </style>
     
 </head>
@@ -96,24 +105,33 @@
     <p>Definición de <a href="https://derechodelared.com/osint/" target="_blank">OSINT</a></p>
     <img src="img/OSINT.png" alt="osint">
     <p><a href="https://suments.com/es/que-son-los-metadatos-definicion-tipos-ejemplos/" target="_blank">Metadatos</a></p>
+    <br>
     <img src="img/metadatos.png" alt="metadatos">
+    <br>
     <img src="img/herramientasMetad.png" alt="herramientas para metadatos">
     <BR></BR>
     <ul> HERRAMIENTAS ON LINE:
         <li><a href="https://jimpl.com/" target="_blank">Jimpl</a></li>
         <li><a href="https://exifdata.com/" target="_blank">ExifData</a></li>
         <li><a href="https://onlineexifviewer.com/" target="_blank">Online Exif Viewer</a></li>
+        <li><a href="https://haveibeenpwned.com/" target="_blank">Son seguros mis datos?</a></li>
     </ul>
 
     <p><a href="https://drive.google.com/drive/folders/1gK7Yiz21OG9nC18PmWumitxO-O2tY6aS?usp=share_link" target="_blank">Link</a> al Drive</p>
 
+
+    <section class="powerpoint">
+        <h2>HUELLA DIGITAL</h2>
+        <p>SATELITES del investigado: personas que lo rodean.</p>
+        <img src="img/satelites.png" alt="personas_satelites">
+        <img src="img/identidad_digital.png" alt="identidad_digital">
+        
+    </section>
+
     <footer>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <span>Este contenido se hizo con fines personales educativos. Corresponde a apuntes tomados en las clases.</spanp> 
+        <p>-2023-</p>        
+   
     </footer>
 
 </body>
