@@ -48,59 +48,71 @@
         header ul li{
                 margin-left: 10px;
         }
-
-
+    
+    
         h1 {
             text-decoration: underline;
             
         }
-
-
+    
+    
         /* esto es un comentario */
-
-        a {
+    
+        a{
             color: aqua;
             text-decoration: none;
         }
-        p {
-            display: flex;
-            justify-content: center;
-            justify-items: center;
-            align-content: center;
-        }
-
+    
+    
         a:hover {
             color: green
         }
 
+        body img {
+            width: 80%;
+        }
+        
         .powerpoint {
             display: grid;
             grid-template-columns: repeat(1,1fr);
             justify-items: center;
             align-content: center;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            
 
         }
-        .powerpoint img {
+        .powerpoint ul {
             justify-items: center;
-            height: 100%;
-            width: auto;
-            justify-items: center;
+            display: grid;
             align-content: center;
-            margin-bottom: 5px;
+
+
+        }
+
+        .powerpoint img {
+            height: 90%;
+            width: auto;
+           
         }
 
         footer {
+            display: grid;
             font-family: 'Lucida Sans';
             font-size: smaller;
             margin-top: 5%;
+            justify-items: center;
+          
         }
+    
 
 
-    </style>
-
+        </style>
+    
 </head>
 <body>
-
+    
     <header>
         <img id="logo" src="info-forense-icono-removebg-preview.png" alt="logo">
         <ul>
@@ -109,7 +121,7 @@
             <li><a href="index3.html">DESAFIOS OSINT</a></li>
         </ul>
     </header>
-
+    
     <br> 
 
 
@@ -245,6 +257,39 @@
         <br>
 
     </section>
+
+    <section class="powerpoint">
+        <h2>Cómo empezar con VYSOR</h2>
+        <h3>Descargar el programa (ver mas arriba en los links)</h3>
+        <ul>
+            <li>Habilitar las opciones para desarrollador</li>
+            <li>Dentro de las opciones verificar que esten habilitadas las siguientes:</li>            
+            <img src="img/vysor1.png" alt="">
+            <br>
+            <img src="img/vysor2.png" alt="">
+            <br>
+            <img src="img/vysor3.png" alt="">
+            <br>
+            <li>Y desactivados lo siguientes:</li>
+            <br>
+            <img src="img/vysor4.png" alt="">
+            
+            <li>Luego ejecutamos el programa y habilitamos la opción "Show serial numbers"</li>
+            <li>Cuando conetemos el celular debemos permitir la depuración por USB.</li>
+            <li>Si nos pregunta como queremos usar el dispositivo conectado, le ponemos permitir la trnasferencia de archivos</li>
+            <li>Le damos al botón de "play"</li>
+            <li>Instalar los drivers</li>
+            <li>Aparece la pantalla del dispositivo conectado</li>
+
+
+        </ul>
+        
+        
+        
+    </section>
+
+
+
 
     <footer>
         <span>Este contenido se hizo con fines personales educativos. Corresponde a apuntes tomados en las clases. Copyright a quien corresponda.</span> 
